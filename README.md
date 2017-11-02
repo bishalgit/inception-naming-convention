@@ -6,5 +6,7 @@ This app will help developers and designers conform the files and folders create
 ## Developers
 
 ## Designers
+1. Avishek
+2. Sudesh
 
 ## Copyright
