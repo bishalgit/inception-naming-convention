@@ -1,0 +1,58 @@
+/*Naming convention main index page*/
+body{background: #018391}
+
+.form-header {
+  background: #fca017;
+  color: #fff;
+  padding: 7px 24px;
+}
+
+.form-header h2 {
+  font-size: 32px;
+}
+input.form-controler {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  color: #757575 !important;
+  background: #fff;
+  border: none;
+}
+.form-body {
+  background: #e6e7e9;
+  padding: 20px;
+}
+
+.btn-default {
+  background: #9a29db;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+.btn-default:hover {
+  background: #861ac5;
+  color: #fff;
+  
+}
+form.convention_form {
+  margin-top: 130px;
+}
+
+
+/*Naming Convention Success Page*/
+.body {background: #eeeeee}
+.convention_form_success {
+  background: #07b108;
+  color: #fff;
+  padding: 40px;
+  margin-top: 230px;
+}
+body.success {
+  background: #eeeeee;
+}
+.convention_form_error {
+  background: #f54337;
+  color: #fff;
+  padding: 40px;
+  margin-top: 230px;
+}
