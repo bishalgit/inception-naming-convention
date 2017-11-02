@@ -9,6 +9,10 @@ Please make github account and clone this project and collaborate in development
 Please setup SSH key and passphrase.
 
 ## Developers
+1. Siddhant Pageni
+2. Amrit Poudel
+3. Susan K.C
+4. Aashim Bajracharya
 
 ## Designers
 1. Avishek
