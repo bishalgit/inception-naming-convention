@@ -15,11 +15,20 @@
 	$arrFilename = [];
 
 	$arrFilename = explode("-", $fileName);
+	echo $arrFilename[0];
+	echo $arrFilename[1];
 
 	$size = count($arrFilename);
-
-	for($i = 0; $i < $size; $i++ ) {
-
-		echo $arrFilename[$i];
+	if ($customerName==$arrFilename[0] && $projectName = $arrFilename[1]) {
+		echo "File is in order";
+	}else{
+		echo "File is not in order";
 	}
+	
+*/
+
+	/*for($i = 0; $i < $size; $i++ ) {
+
+		echo $arrFilename[0];
+	}*/
 ?>
