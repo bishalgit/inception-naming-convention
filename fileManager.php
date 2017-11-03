@@ -10,8 +10,8 @@
 	$projectName= "inception";
 	$fileName= "susan.doc";
 
-	$convec = $customerName . "-" . $projectName . "-" .$fileName;
-	echo $convec;
+	$conven = $customerName . "-" . $projectName . "-" .$fileName;
+	echo $conven;
 
 
 
