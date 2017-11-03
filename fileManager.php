@@ -19,16 +19,22 @@
 	echo $arrFilename[1];
 
 	$size = count($arrFilename);
-	if ($customerName==$arrFilename[0] && $projectName = $arrFilename[1]) {
-		echo "File is in order";
-	}else{
-		echo "File is not in order";
+
+	if($size > 3) {
+
+		echo "***File out of convention order ***"		
+	} else {
+
+		if ($customerName==$arrFilename[0] && $projectName = $arrFilename[1]) {
+				echo "File is in order";
+		} else{
+				echo "File is not in order";
+		}
 	}
-	
-*/
 
-	/*for($i = 0; $i < $size; $i++ ) {
+	// }
+	// for($i = 0; $i < $size; $i++ ) {
 
-		echo $arrFilename[0];
-	}*/
+	// 	echo $arrFilename[0];
+	// }
 ?>
