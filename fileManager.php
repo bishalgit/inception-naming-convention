@@ -8,14 +8,18 @@
 	//Testing the input file
 	$customerName= "susan";
 	$projectName= "inception";
-	$fileName= "susan.doc";
 
-	$conven = $customerName . "-" . $projectName . "-" .$fileName;
-	echo $conven;
+	$fileName= "susan-inception-susan.doc";
 
+	//$conven = $customerName . "-" . $projectName . "-" .$fileName;
+	$arrFilename = [];
 
+	$arrFilename = explode("-", $fileName);
 
+	$size = count($arrFilename);
 
+	for($i = 0; $i < $size; $i++ ) {
 
-
- ?>
+		echo $arrFilename[$i];
+	}
+?>
