@@ -348,3 +348,8 @@ input {outline: none !important;}
 *input:focus {
   outline: none;
 }
+.success-body {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
