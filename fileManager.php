@@ -6,28 +6,28 @@
 	$folderName= $_POST["file"];
 
 	//Testing the input file
-	
-
 	//$conven = $customerName . "-" . $projectName . "-" .$fileName;
-	function Convention($dir){
+	public function convention($dir){
 	$arrFilename = [];
 	$arrFilename = explode("-", $dir);
 	
 	$size = count($arrFilename);
 
-	if($size >= 3) {
+	if($size = 3) {
 
-		echo "***File out of convention order ***";	
-	} else {
 
 		if ($customerName==$arrFilename[0] && $projectName = $arrFilename[1]) {
 				echo "File is in order";
 		} else{
-				echo "File is not in order";
-				
+
+				corrector($dir);
+		}
+			
+	} else {
+
+			corrector($dir);
 		}
 	}
-}
 
 	// }
 	// for($i = 0; $i < $size; $i++ ) {
