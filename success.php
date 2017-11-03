@@ -29,30 +29,14 @@
 	<div class="container">
         <div class="row ">
            
-            <div class="col-md-4 col-md-offset-4">
-                <div class="whole_form fadeInUP">
-                    <div class="logo">
-                            <img src="img/logo.png" class="img-responsive">
-                        </div>
-                <form class="">
-                    <div class="form-header">
-                        <h2>CONVE<span class="text-default">NT</span>IONER</h2>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="success-form ">
+                    <div class="success-header">
+                        <img src="img/success-icon.png" alt="SUCCESS" class="img-responsive">
                     </div>
-                    <div class="form-body">
-                        <div class="form-group">
-                                <input type="text" class="form-controler" id="client_name" name="client_name" placeholder="Client Name">
-                        </div>
-                        <div class="form-group">
-                                <input type="text" class="form-controler" id="project_name" name="project_name" placeholder="Project Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="file" name="fileToUpload" id="fileToUpload" class="inputfile" />
-                            <label for="fileToUpload"><i class="fa fa-upload" ></i> Choose Folder</label>    
-                     </div>
-                        <button type="submit" class="btn btn-default btn-block mt-15">SUBMIT</button>
+                    <div class="success-body">
+                        <h2>SUCCESSFULLY SUBMITED</h2>
                     </div>
-                    <div class="form-footer"></div>
-                </form>
                 </div>
             </div>
         </div>    

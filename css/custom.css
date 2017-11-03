@@ -182,6 +182,7 @@ input.form-controler {
   font-size: 20px;
   border-radius: 70px;
   border-color: black;
+  font-weight: bold;
 }
 .btn-default:hover {
   background: rgba(134, 26, 197, 0);
@@ -217,9 +218,10 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 .whole_form {
-  background: rgba(255, 201, 8, 0.8);
+  background: rgba(255, 201, 8, 0.88);
   padding: 30px 10px 10px;
   margin-top: 90px;
+  border-radius: 10px;
 }
 .logo img {
   margin: auto;
@@ -298,3 +300,51 @@ textarea:focus, input:focus{
 }
 
 .mt-15 {margin-top: 15px !important;}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.inputfile + label {
+  font-size: 1.25em;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  cursor: pointer; /* "hand" cursor */
+  padding: 0.625rem 1.25rem;
+  width: 100%;
+  padding: 16px;
+  border-radius: 70px;
+  font-size: 19px;
+  font-weight: lighter;
+  text-align: center;
+  border: 1px solid #cea207;
+  font-weight: 500;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.inputfile:focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label * {
+  pointer-events: none;
+}
+input {outline: none !important;}
+.inputfile + label i {
+  margin-right: 13px;
+  font-size: 28px;
+}
+*input:focus {
+  outline: none;
+}
