@@ -147,4 +147,154 @@ textarea:focus, input:focus{
   margin-top: 160px;
 }
 
+.mt-15 {margin-top: 15px !important;}/*Naming convention main index page*/
+body{}
+
+.form-header {
+  /* background: #fca017; */
+  color: #fff;
+  padding: 7px 24px;
+}
+
+.form-header h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+input.form-controler {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  color: #757575 !important;
+  background: rgba(255, 255, 255, 0.75);
+  border: none;
+  border-radius: 70px;
+  padding-left: 30px;
+}
+.form-body {
+  /* background: #e6e7e9; */
+  padding: 20px;
+}
+
+.btn-default {
+  background: #080808;
+  color: #fff;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 70px;
+  border-color: black;
+}
+.btn-default:hover {
+  background: rgba(134, 26, 197, 0);
+  color: #fff;
+  border: 2px solid #fff;
+}
+form.convention_form {
+  margin-top: 130px;
+  background: #fdbb1e;
+}
+
+
+/*Naming Convention Success Page*/
+.body {background: #eeeeee}
+.convention_form_success {
+  background: #07b108;
+  color: #fff;
+  padding: 40px;
+  margin-top: 230px;
+}
+body.success {
+  background: #eeeeee;
+}
+.convention_form_error {
+  background: #f54337;
+  color: #fff;
+  padding: 40px;
+  margin-top: 230px;
+}
+
+.pink {background: url('../img/convention-body-img-blackwallpaper.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.whole_form {
+  background: rgba(255, 201, 8, 0.8);
+  padding: 30px 10px 10px;
+  margin-top: 90px;
+}
+.logo img {
+  margin: auto;
+}
+.btn-choose {
+  border-radius: 70px;
+  background: rgba(0, 0, 0, 0);
+  border-color: #fff;
+}
+.btn-choose:hover {background: rgba(0, 0, 0, 0) !important; border:1px solid #fff ;}
+.btn-choose:active {background: rgba(0, 0, 0, 0) !important; border:1px solid #fff ; color:#fff !important;}
+.btn-default:active {background: #000;border-color:#000;}
+.btn-default:hover {background: #000;border: 1px solid #080808;}
+textarea:focus, input:focus{
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+.btn:focus, in.btn:focus{
+  outline: none;
+}
+.btn:focus{
+  outline: none none !important;
+}
+.btn-choose:focus {
+  outline: none !important;
+}
+.success-header {
+  BACKGROUND: rgb(0, 179, 49);
+  padding: 20px;
+  MARGIN: 0;
+}
+.error-header {
+  BACKGROUND: rgb(248, 34, 34);
+  padding: 20px;
+  MARGIN: 0;
+}
+
+.success-header img {
+  width: 90px;
+  height: auto;
+  margin: auto;
+}
+.error-header img {
+  width: 90px;
+  height: auto;
+  margin: auto;
+}
+
+.error-body {
+  background: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+.success-body h2 {
+  color: #00b300;
+  font-weight: 900;
+  font-size: 27px;
+}
+.success-form {
+  margin-top: 160px;
+}
+
+
+
+
+.error-body h2 {
+  color: #f82c1d;
+  font-weight: 900;
+  font-size: 27px;
+}
+.error-form {
+  margin-top: 160px;
+}
+
 .mt-15 {margin-top: 15px !important;}
