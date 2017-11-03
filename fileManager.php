@@ -1,26 +1,21 @@
 <?php 
 	
 	//$_POST take the input from the post
-	/*var customerName= $_POST["customer"];
-	var projectName= $_POST["project"];
-	var fileName= $_POST["file"];*/
+	$customerName= $_POST["customer"];
+	$projectName= $_POST["project"];
+	$folderName= $_POST["file"];
 
 	//Testing the input file
-	$customerName= "susan";
-	$projectName= "inception";
-
-	$fileName= "susan-inception-susan.doc";
+	
 
 	//$conven = $customerName . "-" . $projectName . "-" .$fileName;
+	function Convention($dir){
 	$arrFilename = [];
-
-	$arrFilename = explode("-", $fileName);
-	echo $arrFilename[0];
-	echo $arrFilename[1];
-
+	$arrFilename = explode("-", $dir);
+	
 	$size = count($arrFilename);
 
-	if($size > 3) {
+	if($size >= 3) {
 
 		echo "***File out of convention order ***";	
 	} else {
@@ -29,8 +24,10 @@
 				echo "File is in order";
 		} else{
 				echo "File is not in order";
+				
 		}
 	}
+}
 
 	// }
 	// for($i = 0; $i < $size; $i++ ) {
