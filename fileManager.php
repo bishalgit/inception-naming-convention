@@ -22,7 +22,7 @@
 
 	if($size > 3) {
 
-		echo "***File out of convention order ***"		
+		echo "***File out of convention order ***";	
 	} else {
 
 		if ($customerName==$arrFilename[0] && $projectName = $arrFilename[1]) {
