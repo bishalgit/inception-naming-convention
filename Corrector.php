@@ -7,10 +7,9 @@
 		$size = count($arrFilename);
 
 		$fileLastName = $arrFilename[$size - 1];
-		if(is_numeric($filename[0])){
-			echo "The file name can not start from number";
-		}elseif (strlen($filename)==1) {
-			echo "The file name should be more then a single letter";
+		if(!(preg_match('/^[a-z0-9-]+\.ext$/', $fileLastName))){
+			
+			echo "The last phase of file name itself is incorrect. Please provide the valid filename.";
 		}
 		else{
 
